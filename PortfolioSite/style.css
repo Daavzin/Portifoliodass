@@ -133,3 +133,26 @@ section.especialidades .flex{
     font-size:25px;
     margin: 15px 0px;
 }
+
+/* sobre mim */
+.sobre .img-sobre img{
+border-radius: 20px;
+width: 350px;
+animation: pulsar 1s ease-in-out infinite alternate;
+}
+@keyframes pulsar{
+    0%{}
+    100%{
+        transform: scale(1.04)
+    }
+    }
+    .sobre .txt-sobre{
+    color: #fff;
+    align-items: center;
+    display: flex;
+    margin: 40px 4%;
+    }
+    .sobre .txt-sobre span{
+        color: #ff3131;
+    }
+
