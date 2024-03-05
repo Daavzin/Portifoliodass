@@ -137,7 +137,7 @@ section.especialidades .flex{
 /* sobre mim */
 .sobre .img-sobre img{
 border-radius: 20px;
-width: 350px;
+width: 300px;
 animation: pulsar 1s ease-in-out infinite alternate;
 }
 @keyframes pulsar{
@@ -153,6 +153,11 @@ animation: pulsar 1s ease-in-out infinite alternate;
     margin: 40px 4%;
     }
     .sobre .txt-sobre span{
-        color: #ff3131;
+        color: #000000;
     }
-
+.sobre .flex{
+    background-color:#ff3131af;
+    border-radius: 20px;
+    
+    
+}
