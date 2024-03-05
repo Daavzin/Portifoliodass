@@ -168,6 +168,6 @@ animation: pulsar 1s ease-in-out infinite alternate;
 .sobre .links-sobre i{
     color: #ff3131;
     margin: 48px 19px;
-    display: inline-table;
+    display: inline-flexbox;
     font-size: 40px;
 }
