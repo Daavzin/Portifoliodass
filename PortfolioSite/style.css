@@ -236,10 +236,11 @@ footer .line-footer2 a{
     }
     .especialidades .especialidades-box{
         border-radius: 20px;
-        padding: 40px 4%;
+        padding: 25px 4%;
         text-align: left, justify;
         margin-top: 50px;
         margin-bottom: 50px;
+        margin: 45px;
     }
 
     .menu-desktop, .btn-contato{
