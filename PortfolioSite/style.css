@@ -46,7 +46,7 @@ h2.titulo span{
 header{
     padding:40px 4% ;
 }
-header > .interface{
+header .interface{
     display:flex ;
     align-items: center;
     justify-content:space-between ;
@@ -110,7 +110,8 @@ section.especialidades{
     padding: 40px 4%;
 }
 section.especialidades .flex{
-    gap: 60px;
+    gap: px;
+    margin:10px 200px;
 }
 .especialidades .especialidades-box{
     color: #fff;
@@ -119,6 +120,7 @@ section.especialidades .flex{
     border-radius: 20px;
     transition: .2s;
     gap: 10px;
+    text-align: center;
 
 }
 .especialidades .especialidades-box:hover{
