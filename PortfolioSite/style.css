@@ -75,7 +75,15 @@ header nav ul li{
     padding: 0 40px;
 }
 
-
+/* titulo */
+.topo-do-site .titulo-site{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+.topo-do-site .titulo-site span{
+    color: #ff3131;
+}
 /* topo do site */
 section .topo-do-site{
     padding: 4px 4%;
@@ -117,32 +125,26 @@ section.especialidades{
     text-align: center;
     box-shadow: 0 0 20px 10px #ffffff50;
     margin-top: 15px;
-}
-section.especialidades .flex{
-    gap: 10px;
-    margin:100px 200px;
+    color: #fff;
 }
 .especialidades .especialidades-box{
-    color: #fff;
     border-radius: 20px;
-    transition: .2s;
-    text-align:left;
     padding: 40px 4%;
-    
-
+    text-align: left, justify;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
+
+
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
     box-shadow:0 0 20px #fff ;
 }
 .especialidades .especialidades-box i{
-    font-size: 70px;
+    font-size: 60px;
     color: #ff3131;
 }
-.especialidades .especialidades-box h3{
-    font-size:25px;
-    margin: 15px 0px;
-}
+
 
 /* sobre mim */
 .sobre .img-sobre img{
@@ -232,9 +234,13 @@ footer .line-footer2 a{
     .topo-do-site .flex{
         flex-direction: column-reverse;
     }
-  section .especialidades{
-    padding: 40px 4%;
-  }
+    .especialidades .especialidades-box{
+        border-radius: 20px;
+        padding: 40px 4%;
+        text-align: left, justify;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 
     .menu-desktop, .btn-contato{
         display: none;
@@ -248,6 +254,6 @@ footer .line-footer2 a{
     .topo-do-site .txt-topo-site p{
         color: #fff;
         font-size: 15px;
-        margin: 0;
+        margin: 40px 4%;
     }
 }
