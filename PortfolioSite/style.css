@@ -40,11 +40,13 @@ h2.titulo{
 }
 h2.titulo span{
     color: #ff3131;
+   margin: 10px;
 }
 
 /* cabeçalho */
 header{
-    padding:40px 4% ;
+    padding:60px 6% ;
+    margin-bottom: 90px;
 }
 header .interface{
     display:flex ;
@@ -56,6 +58,7 @@ header a{
     text-decoration: none;
     display: inline-block;
     transition: .2s;
+    max-width: 100%;
 }
 header a:hover{
     color: #fff;
@@ -76,15 +79,18 @@ header nav ul li{
 /* topo do site */
 section .topo-do-site{
     padding: 40px 4%;
+    
+    
 }
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
     gap: 90px;
+    
 }
 .topo-do-site .txt-topo-site h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 23px;
     line-height: 40px;
 }
 .topo-do-site .txt-topo-site p{
@@ -94,8 +100,10 @@ section.topo-do-site .flex{
 }
 .topo-do-site .img-topo-site img{
     position: relative;
-    height: 400px;
     animation: flutuar 2s ease-in-out infinite alternate;
+    width: 100%;
+    max-width: 100%;
+    
 }
 @keyframes flutuar{
     0%{
@@ -105,9 +113,11 @@ section.topo-do-site .flex{
         top: 30px;
     }
 }
-/* Especialidades style */
+/* conhecimentos style */
 section.especialidades{
-    padding: 40px 4%;
+    padding: 100px 4%;
+    text-align: center;
+    box-shadow: 0 0 20px 10px #ffffff50;
 }
 section.especialidades .flex{
     gap: px;
@@ -120,7 +130,8 @@ section.especialidades .flex{
     border-radius: 20px;
     transition: .2s;
     gap: 10px;
-    text-align: center;
+    text-align:left;
+    
 
 }
 .especialidades .especialidades-box:hover{
@@ -148,6 +159,11 @@ animation: pulsar 1s ease-in-out infinite alternate;
         transform: scale(1.04)
     }
     }
+    .sobre{
+        margin: 100px 4%;
+       margin-bottom: 40px 40px;
+       
+    }
     .sobre .txt-sobre h2{
     color: #fff;
     align-items: center;
@@ -166,10 +182,33 @@ animation: pulsar 1s ease-in-out infinite alternate;
     background-color:#000000;
     border-radius: 20px;
     margin: 4% 4%;
+    justify-content: space-between;
 }
 .sobre .links-sobre i{
     color: #ff3131;
     margin: 48px 19px;
-    display: inline-flexbox;
     font-size: 40px;
+}
+/* rodape */
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 20px 10px #ffffff50;
+}
+footer .logo-footer img{
+    height: 55px;
+}
+footer .flex{
+    justify-content:space-between;
+}
+footer .line-footer1 i{
+   color: #ff3131;
+   padding: 20px 0;
+}
+footer .line-footer2{
+    color: #ff3131;
+    border-top: #ff3131 solid;
+}
+footer .line-footer2 a{
+    color: #fff;
+    text-decoration: none;
 }
