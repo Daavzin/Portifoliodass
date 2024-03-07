@@ -46,7 +46,7 @@ h2.titulo span{
 /* cabeçalho */
 header{
     padding:60px 6% ;
-    margin-bottom: 90px;
+    margin-bottom: 9px;
 }
 header .interface{
     display:flex ;
@@ -78,14 +78,14 @@ header nav ul li{
 
 /* topo do site */
 section .topo-do-site{
-    padding: 40px 4%;
+    padding: 4px 4%;
     
     
 }
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 10px;
     
 }
 .topo-do-site .txt-topo-site h1{
@@ -101,8 +101,6 @@ section.topo-do-site .flex{
 .topo-do-site .img-topo-site img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    width: 100%;
-    max-width: 100%;
     
 }
 @keyframes flutuar{
@@ -115,22 +113,21 @@ section.topo-do-site .flex{
 }
 /* conhecimentos style */
 section.especialidades{
-    padding: 100px 4%;
+    padding: 10px 4%;
     text-align: center;
     box-shadow: 0 0 20px 10px #ffffff50;
+    margin-top: 15px;
 }
 section.especialidades .flex{
-    gap: px;
-    margin:10px 200px;
+    gap: 10px;
+    margin:100px 200px;
 }
 .especialidades .especialidades-box{
     color: #fff;
-    padding: 40px;
-    margin-top: 38px;
     border-radius: 20px;
     transition: .2s;
-    gap: 10px;
     text-align:left;
+    padding: 40px 4%;
     
 
 }
@@ -189,6 +186,20 @@ animation: pulsar 1s ease-in-out infinite alternate;
     margin: 48px 19px;
     font-size: 40px;
 }
+/* projetos */
+section .projetos{
+    background-color: #7d7d7d;
+}
+.projetos .flex{
+    padding: 40px 4%;
+    justify-content: space-between;
+    color: #ff3131;
+}
+.projetos .interface{
+    color: #7d7d7d;
+    text-align: center;
+    padding: 40px 4%;
+}
 /* rodape */
 footer{
     padding: 60px 4%;
@@ -211,4 +222,32 @@ footer .line-footer2{
 footer .line-footer2 a{
     color: #fff;
     text-decoration: none;
+}
+@media screen and (max-width: 1020px){
+    
+    /* geral */
+    .flex{
+        flex-direction: column;
+    }
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+  section .especialidades{
+    padding: 40px 4%;
+  }
+
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+    .topo-do-site .txt-topo-site h1{
+        color: #fff;
+        font-size: 20px;
+        line-height: 40px;
+        margin: 40px 4%;
+    }
+    .topo-do-site .txt-topo-site p{
+        color: #fff;
+        font-size: 15px;
+        margin: 0;
+    
 }
